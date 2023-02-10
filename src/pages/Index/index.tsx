@@ -84,7 +84,7 @@ export function Index() {
                 <FontAwesomeIcon icon={faDatabase} />
                 Repository name:
               </label>
-              <input type="text" placeholder='github-blog' id='repository' {...register('repository')} />
+              <input type="text" placeholder='github-blog-app' id='repository' {...register('repository')} />
             </fieldset>
 
             <button
