@@ -4,6 +4,7 @@ export const HeaderContainer = styled.header`
 	width: 100%;
 	height: 296px;
 	position: relative;
+	z-index: -1;
 
 	@media only screen and (max-width: 928px) {
 		display: grid;
