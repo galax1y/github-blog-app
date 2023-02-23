@@ -7,6 +7,11 @@ export const IssueContainer = styled.div`
 	margin-top: -5.75rem;
 	margin-bottom: 10rem;
 
+	@media only screen and (max-width: 928px) {
+		margin: 0 2rem;
+		margin-top: -5.75rem;
+	}
+
 	display: flex;
 	flex-direction: column;
 	align-items: center;

@@ -9,6 +9,10 @@ export const IndexContainer = styled.div`
 
 	box-shadow: 0px 2px 28px rgba(0, 0, 0, 0.2);
 
+	@media only screen and (max-width: 928px) {
+		margin-top: 2.5rem;
+	}
+
 	display: flex;
 	flex-direction: row;
 	flex: 1;
@@ -50,6 +54,7 @@ export const TabsRoot = styled(Tabs.Root)`
 	display: flex;
 	flex-direction: column;
 	background-color: ${(props) => props.theme['base-input']};
+	opacity: 1;
 	border-radius: 10px;
 `
 
