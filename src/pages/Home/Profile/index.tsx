@@ -55,7 +55,7 @@ export function Profile() {
             : null}
           <label>
             <FontAwesomeIcon icon={faUserGroup} width={18} height={18} />
-            <p>{user.followers} seguidores</p>
+            <p>{user.followers + ' seguidores'}</p>
           </label>
         </ProfileFooter>
       </ProfileInformation>

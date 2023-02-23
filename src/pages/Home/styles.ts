@@ -8,7 +8,7 @@ export const HomeContainer = styled.div`
 	margin-bottom: 10rem;
 
 	@media only screen and (max-width: 928px) {
-		margin: 0 2rem;
+		margin: 0 1rem;
 		margin-top: -5.75rem;
 	}
 

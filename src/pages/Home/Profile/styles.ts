@@ -6,6 +6,13 @@ export const ProfileContainer = styled.div`
 	height: 212px;
 	background: ${(props) => props.theme['base-profile']};
 
+	@media only screen and (max-width: 928px) {
+		padding: 1rem;
+		word-wrap: unset;
+		word-break: keep-all;
+		gap: 1rem;
+	}
+
 	padding: 2rem;
 	border-radius: 10px;
 
